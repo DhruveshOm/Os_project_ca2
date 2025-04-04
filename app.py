@@ -42,12 +42,6 @@
 #     st.subheader("📅 Gantt Chart")
 #     plot_gantt(gantt)
 
-#     st.subheader("📈 Performance Metrics")
-#     st.write(f"**Average Waiting Time:** `{avg_wt:.2f}`")
-#     st.write(f"**Average Turnaround Time:** `{avg_tt:.2f}`")
-
-#     st.markdown("### 🧾 Gantt Chart Data")
-#     st.table([{"Process": f"P{pid}", "Start": start, "End": end} for pid, start, end in gantt])
 
 
 
