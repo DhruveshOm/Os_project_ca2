@@ -35,6 +35,7 @@ def priority_scheduling(processes):
         completed += 1
         time = end
 
+    
     avg_waiting = sum(waiting_times) / n
     avg_turnaround = sum(turnaround_times) / n
 
