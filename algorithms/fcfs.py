@@ -10,6 +10,7 @@ def fcfs(processes):
         end = start + p['burst']
         gantt.append((p['id'], start, end))
 
+        
         waiting = start - p['arrival']
         turnaround = end - p['arrival']
         waiting_times.append(waiting)
