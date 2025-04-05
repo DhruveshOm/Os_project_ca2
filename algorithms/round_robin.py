@@ -19,6 +19,7 @@ def round_robin(processes, quantum):
             arrived.add(processes[idx]['id'])
             idx += 1
 
+        
         if queue:
             p = queue.popleft()
             pid = p['id']
