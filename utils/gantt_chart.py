@@ -13,3 +13,4 @@ def plot_gantt(gantt):
     ax.set_yticks([])
     ax.set_title("Gantt Chart")
     st.pyplot(fig)
+    
