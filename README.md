@@ -1,2 +1,3 @@
 # Intelligent CPU Scheduler Simulator
-# Os CA2 Project*
+## Os CA2 Project*
+
